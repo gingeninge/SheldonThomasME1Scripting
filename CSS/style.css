@@ -1,0 +1,884 @@
+
+             /*background colour which is sky colour*/
+body{
+
+    background-color: rgb(72, 199, 221);
+}
+
+
+
+                /*Animations used in css*/
+@keyframes fenceanimation
+{
+from{background-color: rgb(146, 88, 22);}
+to{background-color: rgb(85, 54, 8);}
+}
+                /*manipulating cloud size*/
+@keyframes clouds
+{
+    0%{width: 100px;height: 100px;}
+    25%{width: 150px;height: 125px;}
+    50%{width: 180px; height: 150px;}
+    75%{width: 150px;height: 125px;}
+    100%{width: 100px; height: 100px;}
+}
+                /*manipulating cloud size*/
+@keyframes clouds2
+{
+    0%{width: 100px;height: 100px;}
+    25%{width: 150px;height: 125px;}
+    50%{width: 175px; height: 175px;}
+    75%{width: 150px;height: 125px;}
+    100%{width: 100px; height: 100px;}
+}
+
+
+                 /*objects used to create the fencing and animations inplemented to draw eye */
+#fence1
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    
+}
+#fence2
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 40px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 1s;
+}#fence3
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 80px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 2s;
+}#fence4
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 120px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 3s;
+}#fence5
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 160px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 4s;
+}#fence6
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 5s;
+}
+#fence7
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 240px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 6s;
+}
+#fence8
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 280px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 7s;
+}
+#fence9
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 320px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 8s;
+}
+#fence10
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 360px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 9s;
+}
+#fence11
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 400px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 10s;
+}
+#fence12
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 440px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 11s;
+}
+#fence13
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 480px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 12s;
+}
+#fence14
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 520px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 13s;
+}
+#fence15
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 560px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 14s;
+}
+#fence16
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 600px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 15s;
+}
+#fence17
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 640px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 16s;
+}
+#fence18
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 680px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 17s;
+}
+#fence19
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 720px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 18s;
+}
+#fence20
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 760px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 19s;
+}#fence21
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 800px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 20s;
+}
+#fence22
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 840px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 21s;
+}
+#fence23
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 880px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 22s;
+}
+
+
+#fence24
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 920px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 23s;
+}
+#fence25
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 960px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 24s;
+}
+#fence26
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 1000px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 25s;
+}
+#fence27
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 1040px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 26s;
+}
+#fence28
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 1080px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 27s;
+}
+#fence29
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 1120px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 28s;
+}
+#fence30
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 1160px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 29s;
+}
+#fence31
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 1200px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -5;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 30s;
+}
+#fence32
+{
+    width: 40px;
+    height: 300px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 300px;
+    left: 1240px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: -7;
+    animation: fenceanimation;
+    animation-duration: 4s;
+    animation-iteration-count: 10;
+    animation-delay: 31s;
+}
+
+                /*goes over fence to make it look more natural*/
+#fenceconnect1
+{
+    width: 1270px;
+    height: 25px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 370px;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 1;
+    
+}
+#fenceconnect2
+{
+    width: 1270px;
+    height: 25px;
+    background-color: rgb(146, 88, 22);
+    position: absolute;
+    top: 500px;
+    left: 0px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 1;
+ 
+}
+
+
+
+
+
+
+
+                /*cloud objects used and animations implimented to make expanding*/
+#cloud
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 350px;
+    z-index: 1;
+    animation: clouds;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+}
+#cloud2
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 100px;
+    left: 400px;
+    z-index: 1;
+    animation: clouds;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+}
+#cloud3
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 470px;
+    z-index: 1;
+    animation: clouds;
+    animation-duration: 10s;
+    animation-iteration-count: 10;
+}
+#cloud4
+{
+    width: 125px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 50px;
+    left: 800px;
+    z-index: 1;
+    animation: clouds2;
+    animation-duration: 15s;
+    animation-iteration-count: 10;
+}
+#cloud5
+{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    top: 70px;
+    left: 910px;
+    z-index: 1;
+    animation: clouds2;
+    animation-duration: 15s;
+    animation-iteration-count: 10;
+
+}
+#cloud6
+{
+    width: 100px;
+    height: 125px;
+    background-color: white;
+    position: absolute;
+    top: 25px;
+    left: 1000px;
+    z-index: 1;
+    animation: clouds2;
+    animation-duration: 15s;
+    animation-iteration-count: 10;
+}
+
+
+
+
+                /*objects used to create house*/
+
+
+
+/*ground object*/
+#ground
+{
+    width: 1270px;
+    height: 350px;
+    background-color: green;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+   
+    z-index: -5;
+}
+                /*roof object*/
+                /*CSS(w3schools shapes)w3schools,nd no date,https://www.w3schools.com/howto/howto_css_shapes.asp   was used in the making of the triangle*/
+.triangle-up {
+	width: 10;
+	height: 10;
+	border-left: 750px solid transparent;
+	border-bottom: 300px solid #805114;
+    float: inline-end;
+    
+    
+    
+}
+
+#house
+{
+    width: 650px;
+    height: 645px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 2;
+}
+#door2
+{
+    width: 350px;
+    height: 350px;
+    background-color: rgb(77, 45, 16);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 4;
+}
+#door
+{
+    width: 370px;
+    height: 370px;
+    background-color: rgb(128, 78, 32);
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 3;
+}
+#roof
+{
+    width: 20px;
+    height: 370px;
+    background-color: #805114;
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    z-index: -1;
+}
+#wood1
+{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 372px;
+    right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 4;
+}
+
+#wood2
+{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 494px;
+    right: 0px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 3;
+}
+#wood3
+{
+    width: 100px;
+    height: 150px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 494px;
+    right: 102px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 3;
+}
+
+#wood4
+{
+    width: 100px;
+    height: 210px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 372px;
+    right: 204px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 3;
+}
+#wood5
+{
+    width: 70px;
+    height: 70px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 372px;
+    right: 305px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 3;
+}
+#wood6
+{
+    width: 70px;
+    height: 273px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 372px;
+    right: 305px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 2;
+}
+#wood7
+{
+    width: 100px;
+    height: 273px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 0px;
+    right: 370px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 2;
+}
+#wood8
+{
+    width: 100px;
+    height: 370px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 275px;
+    right: 370px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 3;
+}
+#wood9
+{
+    width: 100px;
+    height: 273px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 372px;
+    right: 470px;
+    border-style: solid;
+    border-width: 2px;
+    
+    z-index: 2;
+}
+#wood10
+{
+    width: 100px;
+    height: 370px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 0px;
+    right: 472px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 2;
+}
+#wood11
+{
+    width: 77px;
+    height: 470px;
+    background-color: rgb(146, 87, 32);
+    position: absolute;
+    bottom: 0px;
+    right: 573px;
+    border-style: solid;
+    border-width: 2px;
+    z-index: 2;
+}
+
